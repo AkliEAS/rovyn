@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de Rovyn: qué datos usa la app, para qué, con quién se comparten y cómo eliminarlos.">
+  <title>Política de privacidad de Rovyn</title>
+  <meta name="theme-color" content="#0B0F14">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="page">
+    <nav class="sitenav" aria-label="Sitio de Rovyn">
+      <a class="brand" href="../index.html">Rovyn</a>
+      <ul>
+          <li><a href="../privacy/index.html" aria-current="page">Privacidad</a></li>
+          <li><a href="../terms/index.html">Términos</a></li>
+          <li><a href="../support/index.html">Soporte</a></li>
+      </ul>
+    </nav>
+
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Privacidad · Rovyn</p>
+        <h1>Política de privacidad de Rovyn</h1>
+      </div>
+      <p class="meta">
+        <strong>Última actualización</strong>
+        5 de octubre de 2026<br>
+        <strong>Responsable</strong>
+        AKLI E.A.S. («Akli»)<br>
+        <strong>Contacto</strong>
+        <a href="mailto:easaklipy@gmail.com">easaklipy@gmail.com</a>
+      </p>
+    </header>
+
+    <main id="contenido" class="layout">
+      <nav class="contents" aria-label="Contenido de esta página">
+        <p>En esta página</p>
+        <ol>
+          <li><a href="#resumen">Resumen</a></li>
+          <li><a href="#datos">Qué datos usa la app en tu teléfono</a></li>
+          <li><a href="#accesibilidad">Servicio de accesibilidad</a></li>
+          <li><a href="#permisos">Permisos que solicita</a></li>
+          <li><a href="#almacenamiento">Dónde se guardan tus datos</a></li>
+          <li><a href="#compras">Compras y suscripciones</a></li>
+          <li><a href="#terceros">Con quién se comparten</a></li>
+          <li><a href="#menores">Edad mínima</a></li>
+          <li><a href="#eliminacion">Conservación y eliminación</a></li>
+          <li><a href="#derechos">Tus derechos</a></li>
+          <li><a href="#cambios">Cambios en esta política</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ol>
+      </nav>
+
+      <article>
+        <p class="intro">Rovyn es una app para Android que te ayuda a reducir el uso impulsivo del teléfono: bloquea las apps que elijas según horarios, límites diarios o sesiones de foco, y te muestra estadísticas de tu propio uso. Esta política explica qué información usa Rovyn, para qué y qué control tienes sobre ella. Rovyn es desarrollada por AKLI E.A.S. («Akli», «nosotros»), con domicilio en la República del Paraguay.</p>
+
+        <section id="resumen">
+          <h2>1. Resumen</h2>
+          <ul>
+            <li>Rovyn funciona <strong>en tu dispositivo</strong>. No necesitas crear una cuenta.</li>
+            <li>Tu uso del teléfono, la lista de apps, tus reglas y tus notas <strong>no salen de tu teléfono</strong>.</li>
+            <li>Solo si compras Premium, los datos de esa compra se procesan con Google Play y con nuestro proveedor RevenueCat (sección 6).</li>
+            <li>No mostramos publicidad, no usamos analítica de comportamiento y <strong>no vendemos</strong> datos.</li>
+            <li>Rovyn <strong>no lee</strong> mensajes, textos, contraseñas ni el contenido de otras apps.</li>
+            <li>Puedes borrar tus datos en cualquier momento (sección 9).</li>
+          </ul>
+        </section>
+
+        <section id="datos">
+          <h2>2. Qué datos usa la app en tu teléfono</h2>
+          <p>Para funcionar, Rovyn usa la siguiente información, que se guarda y procesa solo dentro de tu teléfono:</p>
+          <ul>
+            <li><strong>Uso de aplicaciones:</strong> cuánto tiempo usas cada app y cuántas veces la abres, obtenido del permiso «Acceso a datos de uso» de Android. Sirve para mostrarte tu tiempo de pantalla y estadísticas, y para aplicar los límites diarios que configures.</li>
+            <li><strong>App en primer plano:</strong> el identificador de la app que se abre en pantalla (por ejemplo, <code>com.ejemplo.redsocial</code>), obtenido del servicio de accesibilidad. Sirve para saber si debe mostrarse la pantalla de bloqueo. Ver la sección 3.</li>
+            <li><strong>Lista de apps instaladas:</strong> nombre e icono de las apps que se pueden abrir desde el lanzador, para que elijas cuáles bloquear.</li>
+            <li><strong>Lo que tú configuras y registras:</strong> reglas, horarios, límites, sesiones de foco, rachas, intentos de abrir apps bloqueadas, excepciones y las notas o intenciones que escribas de forma opcional.</li>
+            <li><strong>Datos opcionales del inicio:</strong> tu estimación de tiempo diario y, si decides indicarlo, un rango de edad (por ejemplo, 18–24). Solo se usan para personalizar metas y mensajes.</li>
+          </ul>
+          <p>No recopilamos tu nombre, correo, número de teléfono, ubicación, contactos, fotos ni identificadores publicitarios.</p>
+        </section>
+
+        <section id="accesibilidad">
+          <h2>3. Servicio de accesibilidad</h2>
+          <p>Rovyn usa la API de Accesibilidad de Android (AccessibilityService) con un único fin: <strong>detectar qué app pasa a primer plano para mostrar la pantalla de bloqueo cuando esa app está incluida en una regla o sesión que tú activaste</strong>.</p>
+          <ul>
+            <li>Solo recibe el aviso de que cambió la ventana activa y el identificador de esa app.</li>
+            <li>No lee el contenido de la pantalla, textos, mensajes, contraseñas ni lo que escribes.</li>
+            <li>No realiza acciones en tu nombre dentro de otras apps.</li>
+            <li>Esta información se procesa en tu teléfono y no se envía fuera de él.</li>
+          </ul>
+          <p class="note">Antes de activar el servicio, Rovyn te explica para qué lo usa y te pide que aceptes expresamente. Puedes no activarlo (el bloqueo de apps no funcionará) o desactivarlo cuando quieras en Ajustes de Android &gt; Accesibilidad.</p>
+        </section>
+
+        <section id="permisos">
+          <h2>4. Permisos que solicita</h2>
+          <ul>
+            <li><strong>Acceso a datos de uso:</strong> tiempo de pantalla, aperturas y límites diarios.</li>
+            <li><strong>Servicio de accesibilidad:</strong> detectar la app en primer plano para aplicar el bloqueo (sección 3).</li>
+            <li><strong>Notificaciones:</strong> mostrar la notificación de una sesión de foco activa.</li>
+            <li><strong>Servicio en primer plano:</strong> mantener activa la sesión de foco que iniciaste aunque cierres la app.</li>
+            <li><strong>Inicio tras reiniciar:</strong> restaurar tus reglas y sesiones activas si se reinicia el teléfono.</li>
+            <li><strong>Facturación de Google Play:</strong> permitir la compra de Premium.</li>
+            <li><strong>Internet:</strong> verificar compras con Google Play y RevenueCat. No se usa para enviar tu uso del teléfono.</li>
+          </ul>
+          <p>Puedes revocar cualquiera de estos permisos desde los Ajustes de Android. Rovyn nunca impide desinstalarla ni revocar permisos.</p>
+        </section>
+
+        <section id="almacenamiento">
+          <h2>5. Dónde se guardan tus datos</h2>
+          <p>Los datos de la sección 2 se guardan únicamente en el almacenamiento interno de la app en tu teléfono. Rovyn desactiva la copia de seguridad automática de Android, por lo que tampoco se copian a tu cuenta de Google.</p>
+          <p>Android aísla el almacenamiento de cada app, de modo que otras apps no pueden leerlo.</p>
+        </section>
+
+        <section id="compras">
+          <h2>6. Compras y suscripciones</h2>
+          <p>Si compras Rovyn Premium, el pago lo procesa <strong>Google Play</strong>. Nosotros no recibimos ni guardamos los datos de tu tarjeta ni de tu medio de pago.</p>
+          <p>Para verificar la compra, activar Premium y permitir restaurarla, usamos <strong>RevenueCat, Inc.</strong> (Estados Unidos) como proveedor de servicios. RevenueCat recibe:</p>
+          <ul>
+            <li>un identificador anónimo generado al azar por la app (no es tu nombre ni tu correo);</li>
+            <li>los datos de la compra: producto, fecha, estado, vencimiento y el comprobante (token) de Google Play;</li>
+            <li>datos técnicos básicos: modelo del dispositivo, versión de Android y de la app, idioma, país y la dirección IP de la conexión.</li>
+          </ul>
+          <p>Usamos estos datos para dar acceso a Premium, atender consultas sobre compras y ver estadísticas agregadas de ventas. RevenueCat no recibe tu uso del teléfono, tu lista de apps ni tus reglas. RevenueCat los cifra en tránsito y los trata según su propia <a href="https://www.revenuecat.com/privacy">política de privacidad</a>; esto implica una transferencia de datos a Estados Unidos.</p>
+        </section>
+
+        <section id="terceros">
+          <h2>7. Con quién se comparten</h2>
+          <p>No vendemos tus datos ni los compartimos con anunciantes. Solo intervienen:</p>
+          <ul>
+            <li><strong>RevenueCat</strong>, como proveedor de servicios para las compras (sección 6).</li>
+            <li><strong>Google</strong>, que gestiona la descarga, los pagos y puede poner a disposición de los desarrolladores informes agregados de fallos, según su <a href="https://policies.google.com/privacy">política de privacidad</a>.</li>
+            <li>Autoridades, solo si una ley u orden judicial válida nos obliga.</li>
+          </ul>
+        </section>
+
+        <section id="menores">
+          <h2>8. Edad mínima</h2>
+          <p>Rovyn está dirigida a personas de 16 años o más y no está diseñada para niños. No recopilamos a sabiendas información de menores de 13 años. Si crees que un menor nos ha dado datos, escríbenos y los eliminaremos.</p>
+        </section>
+
+        <section id="eliminacion">
+          <h2>9. Conservación y eliminación</h2>
+          <p>Los datos de tu teléfono se conservan mientras uses la app. Puedes eliminarlos por completo en cualquier momento:</p>
+          <ul>
+            <li>en Ajustes de Android &gt; Aplicaciones &gt; Rovyn &gt; Almacenamiento &gt; <strong>Borrar datos</strong>, o</li>
+            <li>desinstalando la app.</li>
+          </ul>
+          <p>Los datos de compra se conservan mientras sean necesarios para mantener tu acceso a Premium y cumplir obligaciones legales. Puedes pedir que los eliminemos escribiendo a <a href="mailto:easaklipy@gmail.com">easaklipy@gmail.com</a> con el número de pedido de Google Play (empieza con «GPA.»); lo haremos dentro de los 30 días. Google conserva sus propios registros de pago según sus políticas.</p>
+        </section>
+
+        <section id="derechos">
+          <h2>10. Tus derechos</h2>
+          <p>Puedes pedirnos acceso, corrección o eliminación de los datos que tengamos sobre ti, u oponerte a su tratamiento, escribiendo a <a href="mailto:easaklipy@gmail.com">easaklipy@gmail.com</a>. Como casi toda la información está solo en tu teléfono, normalmente puedes ejercer estos derechos directamente desde la app o los Ajustes de Android.</p>
+        </section>
+
+        <section id="cambios">
+          <h2>11. Cambios en esta política</h2>
+          <p>Si añadimos funciones que cambien qué datos se usan (por ejemplo, una cuenta opcional o sincronización), actualizaremos esta política <strong>antes</strong> de activarlas y lo indicaremos en la app. La fecha de «Última actualización» indica la versión vigente.</p>
+        </section>
+
+        <section id="contacto">
+          <h2>12. Contacto</h2>
+          <p>Responsable: AKLI E.A.S. («Akli»), República del Paraguay. Para preguntas sobre esta política o sobre tus datos, escribe a <a href="mailto:easaklipy@gmail.com">easaklipy@gmail.com</a>.</p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="sitefoot">
+      © 2026 AKLI E.A.S. · Rovyn ·
+      <a href="../privacy/index.html">Privacidad</a> ·
+      <a href="../terms/index.html">Términos</a> ·
+      <a href="../support/index.html">Soporte</a>
+    </footer>
+  </div>
+</body>
+</html>
